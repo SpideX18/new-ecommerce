@@ -4,8 +4,8 @@ function Footer() {
   return (
     <div>
       <div className="foot">
-        <div className="row">
-          <div className="col-4">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div className="col">
             <ul>
               <li><h2>CUSTOMER CARE</h2></li>
               <li><a href="">Help Center</a></li>
@@ -15,7 +15,7 @@ function Footer() {
           </div>
 
           
-          <div className="col-4">
+          <div className="col">
             <ul>
               <li><h2>ONLINE SHOPPING</h2></li>
               <li><a href="">About Us</a></li>
@@ -25,7 +25,7 @@ function Footer() {
           </div>
 
           
-          <div className="col-4">
+          <div className="col">
             <ul>
               <li><h2>EARNING</h2></li>
               <li><a href="">University</a></li>

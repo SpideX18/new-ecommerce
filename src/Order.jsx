@@ -16,17 +16,15 @@ function Order() {
              </div>
              <div className="nextcol col-6">       
                 <div className='order-title'>
-                    <h2>{x.title}</h2>
-                </div>  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
+                    <h3>{x.title}</h3>
+                </div> 
+                  
                 <div className="order-price">
                   <h2>PRICE : Rs.<span>{x.price}</span></h2>
                 </div>
                 <div className="order-conform">
-                  <button>SHIP OFF</button>
-                  <button className="cancel">CANCEL ORDER</button>
+                  <button><h2>SHIP OFF</h2></button>
+                  <button className="cancel"><h2>CANCEL ORDER</h2></button>
                 </div>
              </div>
           </div>

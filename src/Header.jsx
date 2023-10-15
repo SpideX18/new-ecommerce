@@ -4,7 +4,7 @@ function Header() {
   return (
     <div>
     <div className='top_head'>
-         <image> <img src="http://www.themespride.com/wp-content/themes/themespride/images/logo.png" alt="" /></image>
+          <img src="http://www.themespride.com/wp-content/themes/themespride/images/logo.png" alt="" />
       
       <div className="text">
           <p><span>Spring Special!</span> Festive Sale! Enjoy <span>20% OFF</span> Use Code: <span>"NY23Festiv20"</span>
@@ -15,7 +15,7 @@ function Header() {
       </div>
       
     </div>
-    <br/>
+
     <div className="text2">
       <p>Up to <span>70% Discount</span> on Fashion collection for this week Get Now</p>
     </div>

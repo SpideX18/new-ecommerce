@@ -24,7 +24,7 @@ function Details() {
                     <h2>{x.title}</h2>
                 </div>
                 <div className='detail-det'>
-                    <b>{x.description.substring(0,500)}</b>
+                    <h3>{x.description.substring(0,500)}</h3>
                     <h3>CATEGORY : {x.category}</h3>
                 </div><br/>
 

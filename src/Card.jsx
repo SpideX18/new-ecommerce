@@ -7,26 +7,29 @@ function Card() {
     <div>
 
       
-  <div className='card-container container-fluid'>
+  <div className="card-all">
             {Data.map((x)=>
             <>
-             <div className='card-cont'>
-             <div class="card-img" >
-  <Link  to={`/details/${x.id}`}> <img src={x.image} class="card-img-top"></img></Link>
-  <div class="card-body">
-    <h5 class="card-title">{x.title.substring(0,10)}</h5>
-    <div className='card-footer'>
+            <div className='card'>
+             <div className='c-con'>
+             <div class="c-img" >
+  <Link  to={`/details/${x.id}`}> <img src={x.image}></img></Link>
+  <div class="c-body">
+    <h5 class="c-title">{x.title.substring(0,10)}</h5>
+    <div className='c-foot'>
                    <h5 className='p-cat'>{x.price}$</h5>
                 </div>
   </div>
+</div>
 </div>
 </div>
 </>
 
              )}
         </div>
+        </div>
         
-    </div>
+     
   );
 }
 
